@@ -1,0 +1,186 @@
+*{ margin: 0;
+	padding: 0;
+ }
+.clearfix { overflow: auto; }
+
+a {text-decoration: none;}
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar {
+	width: 1000px;
+	background-image: url(../Images/back.jpg);
+
+}
+
+.top-bar-links {
+	float: left;
+	
+}
+
+.site-search{
+	padding: 0 10px;
+	background: white;
+	float: right;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.site-search input {
+	border: none;
+}
+
+.site-search button {
+	border: none;
+
+}
+.top-bar-links ul{
+	list-style: none;
+	margin: 15px;
+}
+.top-bar-links ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+.top-bar-links ul li a {
+	color: white;
+	padding: 0 10px;
+	border-right: 1px solid white;
+}
+.top-bar-links ul li a:hover {
+	color: blue;
+}
+.top-bar-links ul li:first-child {
+	border-left: 1px solid white;
+}
+.logo { float: left; }
+.logo h1 {
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+.logo p {
+	font-size: 20px;
+	font-weight: bold;
+}
+.s-media {
+	float: right;
+}
+.s-media ul{
+	list-style: none;
+	margin: 15px;
+
+}
+.s-media ul li{
+	
+	display: inline;
+}
+.s-media ul li a img{
+	padding: 6px;
+	border-radius: 30px;
+	display: inline-block;
+	margin: 0px;
+}
+.s-media ul li a :hover {
+	background-color: orange;
+}
+.phone img{
+	margin-top: 30px;
+	width:400px;
+	height: 610px;	
+	float: left;
+	
+}
+.desc p {
+	float:right;
+	width: 585px;
+	margin: 100px 0px 0px 15px;
+	font-size: 20px;
+}
+.login {
+
+	float:left;
+	width: 1000px;
+}
+.signup{
+	width: 1000px;
+	float:left;
+}
+.login h1{
+	margin: 70px 0px 0px 0px;
+	color: white;
+	background-color: #cc5544;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.signup h1{
+	margin: 70px 0px 0px 0px;
+	color: white;
+	background-color: #cc5544;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+td{
+	font-size: 22px;
+	padding: 10px;
+
+}
+button {
+	font-size: 22px;
+	float: right;
+	margin-left: 20px;
+	padding: 0 10px;
+	border-radius: 15px;
+	color: white;
+	background-color: black;	
+
+}
+.login p{
+	display: inline;
+	padding-right: 10px;
+	padding-left: 50px;
+	font-size: 20px;
+
+}
+.box {
+	width:250px;
+	margin-right: 50px;
+	margin-left: -15px;
+
+}
+.signup button {
+	margin-bottom: 20px;
+}
+.bg {
+	background-color: #cc7744;
+	padding: 35px;
+	border-radius: 10px;
+}
+input {
+	font-size: 20px;
+	border-style: none;
+	padding-left: 5px;
+	border-radius: 5px;
+
+}
+td.m1 {
+	
+	height: 40px;
+	
+}
+.sup {
+	display: inline;
+	font-size: 22px;
+
+}
+.sup p {
+	margin-bottom: 20px;
+}
+
+.s-media {
+	background-color: lightgray;
+	border-radius: 5px;
+}
